@@ -1,0 +1,293 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Interface_Ethernet:KSZ9031RNXCA U?
+U 1 1 5EA75281
+P 5350 3700
+F 0 "U?" H 5350 2011 50  0000 C CNN
+F 1 "KSZ9031RNXCA" H 5350 1920 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm" H 5800 2150 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/00002117C.pdf" H 5350 2050 50  0001 C CNN
+	1    5350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y?
+U 1 1 5EA761B4
+P 6950 4850
+F 0 "Y?" V 6904 4981 50  0000 L CNN
+F 1 "Crystal" V 6995 4981 50  0000 L CNN
+F 2 "" H 6950 4850 50  0001 C CNN
+F 3 "~" H 6950 4850 50  0001 C CNN
+	1    6950 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:RJ45 J?
+U 1 1 5EAA1AB3
+P 10200 3650
+F 0 "J?" H 9870 3654 50  0000 R CNN
+F 1 "RJ45" H 9870 3745 50  0000 R CNN
+F 2 "" V 10200 3675 50  0001 C CNN
+F 3 "~" V 10200 3675 50  0001 C CNN
+	1    10200 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6650 4800 6750 4800
+Wire Wire Line
+	6750 4800 6750 4700
+Wire Wire Line
+	6750 4700 6950 4700
+Wire Wire Line
+	6650 4900 6750 4900
+Wire Wire Line
+	6750 4900 6750 5000
+Wire Wire Line
+	6750 5000 6950 5000
+$Comp
+L Device:C C?
+U 1 1 5EAA55CC
+P 7550 4650
+F 0 "C?" V 7298 4650 50  0000 C CNN
+F 1 "C" V 7389 4650 50  0000 C CNN
+F 2 "" H 7588 4500 50  0001 C CNN
+F 3 "~" H 7550 4650 50  0001 C CNN
+	1    7550 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EAA652B
+P 7550 5100
+F 0 "C?" V 7298 5100 50  0000 C CNN
+F 1 "C" V 7389 5100 50  0000 C CNN
+F 2 "" H 7588 4950 50  0001 C CNN
+F 3 "~" H 7550 5100 50  0001 C CNN
+	1    7550 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7400 4650 7250 4650
+Wire Wire Line
+	7250 4650 7250 4700
+Wire Wire Line
+	7250 4700 6950 4700
+Connection ~ 6950 4700
+Wire Wire Line
+	7400 5100 7250 5100
+Wire Wire Line
+	7250 5100 7250 5000
+Wire Wire Line
+	7250 5000 6950 5000
+Connection ~ 6950 5000
+Wire Wire Line
+	7700 4650 7900 4650
+Wire Wire Line
+	7900 4650 7900 4900
+Wire Wire Line
+	7900 5100 7700 5100
+Text HLabel 8150 4900 2    50   Output ~ 0
+GND
+Wire Wire Line
+	8150 4900 7900 4900
+Connection ~ 7900 4900
+Wire Wire Line
+	7900 4900 7900 5100
+Wire Bus Line
+	3600 2850 2500 2850
+Entry Wire Line
+	3600 2900 3700 3000
+Entry Wire Line
+	3600 3000 3700 3100
+Entry Wire Line
+	3600 3100 3700 3200
+Entry Wire Line
+	3600 3200 3700 3300
+Entry Wire Line
+	3600 3300 3700 3400
+Entry Wire Line
+	3600 3400 3700 3500
+Wire Wire Line
+	4050 3000 3700 3000
+Wire Wire Line
+	3700 3100 4050 3100
+Wire Wire Line
+	4050 3200 3700 3200
+Wire Wire Line
+	4050 3300 3700 3300
+Wire Wire Line
+	4050 3400 3700 3400
+Wire Wire Line
+	4050 3500 3700 3500
+Wire Bus Line
+	3600 3600 2500 3600
+Entry Wire Line
+	3600 3600 3700 3700
+Entry Wire Line
+	3600 3700 3700 3800
+Entry Wire Line
+	3600 3800 3700 3900
+Entry Wire Line
+	3600 3900 3700 4000
+Entry Wire Line
+	3600 4000 3700 4100
+Entry Wire Line
+	3600 4100 3700 4200
+Wire Wire Line
+	4050 3700 3700 3700
+Wire Wire Line
+	4050 3800 3700 3800
+Wire Wire Line
+	3700 3900 4050 3900
+Wire Wire Line
+	4050 4000 3700 4000
+Wire Wire Line
+	3700 4100 4050 4100
+Wire Wire Line
+	4050 4200 3700 4200
+Text HLabel 2500 2850 0    50   Output ~ 0
+TX_BUS
+Text HLabel 2500 3600 0    50   Output ~ 0
+RX_BUS
+Wire Wire Line
+	4550 2100 4550 1950
+Wire Wire Line
+	4550 1950 4650 1950
+Wire Wire Line
+	4650 1950 4650 2100
+Wire Wire Line
+	4750 2100 4750 1950
+Wire Wire Line
+	4750 1950 4650 1950
+Connection ~ 4650 1950
+Wire Wire Line
+	4950 2100 4950 1950
+Wire Wire Line
+	4950 1950 5050 1950
+Wire Wire Line
+	5050 1950 5050 2100
+Wire Wire Line
+	5250 2100 5250 1950
+Wire Wire Line
+	5250 1950 5350 1950
+Wire Wire Line
+	5750 1950 5750 2100
+Wire Wire Line
+	5350 2100 5350 1950
+Connection ~ 5350 1950
+Wire Wire Line
+	5350 1950 5450 1950
+Wire Wire Line
+	5450 2100 5450 1950
+Connection ~ 5450 1950
+Wire Wire Line
+	5550 2100 5550 1950
+Wire Wire Line
+	5450 1950 5550 1950
+Connection ~ 5550 1950
+Wire Wire Line
+	5550 1950 5650 1950
+Wire Wire Line
+	5650 2100 5650 1950
+Connection ~ 5650 1950
+Wire Wire Line
+	5650 1950 5750 1950
+Wire Wire Line
+	5950 2100 5950 1950
+Wire Wire Line
+	5950 1950 6050 1950
+Wire Wire Line
+	6050 1950 6050 2100
+$Comp
+L Device:R R?
+U 1 1 5EAB5C8C
+P 3850 2350
+F 0 "R?" H 3920 2396 50  0000 L CNN
+F 1 "4.7K" H 3920 2305 50  0000 L CNN
+F 2 "" V 3780 2350 50  0001 C CNN
+F 3 "~" H 3850 2350 50  0001 C CNN
+	1    3850 2350
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	2600 2500 3600 2500
+Text HLabel 2600 2500 0    50   Output ~ 0
+MGM_BUS
+Entry Wire Line
+	3600 2600 3700 2700
+Entry Wire Line
+	3600 2700 3700 2800
+Text GLabel 3750 2000 0    50   Output ~ 0
+DVDDH
+Wire Wire Line
+	3750 2000 3850 2000
+Wire Wire Line
+	3850 2000 3850 2200
+Text GLabel 4450 1800 0    50   Output ~ 0
+DVDDH
+Wire Wire Line
+	4450 1800 4650 1800
+Wire Wire Line
+	4650 1800 4650 1950
+Text Label 3750 3000 0    50   ~ 0
+TX_EN
+Text Label 3750 3100 0    50   ~ 0
+TXDO
+Text Label 3750 3200 0    50   ~ 0
+TXD1
+Text Label 3750 3300 0    50   ~ 0
+TXD2
+Text Label 3750 3400 0    50   ~ 0
+TXD3
+Text Label 3700 3500 0    50   ~ 0
+GTX_CLK
+Text Label 3750 3700 0    50   ~ 0
+RX_DV
+Text Label 3750 3800 0    50   ~ 0
+RXD0
+Text Label 3750 3900 0    50   ~ 0
+RXD1
+Text Label 3750 4000 0    50   ~ 0
+RXD2
+Text Label 3750 4100 0    50   ~ 0
+RX23
+Text Label 3700 4200 0    50   ~ 0
+RX_CLK
+Wire Wire Line
+	4050 2700 3700 2700
+Text Label 3750 2700 0    50   ~ 0
+MDC
+Text Label 3750 2800 0    50   ~ 0
+MDIO
+Wire Wire Line
+	3700 2800 3950 2800
+Wire Wire Line
+	3850 2500 3850 2600
+Wire Wire Line
+	3850 2600 3950 2600
+Wire Wire Line
+	3950 2600 3950 2800
+Wire Bus Line
+	3600 2500 3600 2700
+Wire Bus Line
+	3600 2850 3600 3550
+Wire Bus Line
+	3600 3600 3600 4250
+Connection ~ 3950 2800
+Wire Wire Line
+	3950 2800 4050 2800
+$EndSCHEMATC
