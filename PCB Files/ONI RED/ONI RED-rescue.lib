@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# PCI-Express-4x
+# PCI-Express-4x-Custom_Symbols
 #
-DEF PCI-Express-4x U 0 40 Y Y 1 F N
+DEF PCI-Express-4x-Custom_Symbols U 0 40 Y Y 1 F N
 F0 "U" 0 -1850 50 H V C CNN
-F1 "PCI-Express-4x" 0 1600 50 H V C CNN
+F1 "PCI-Express-4x-Custom_Symbols" 0 1600 50 H V C CNN
 F2 "" -1000 1550 50 H I C CNN
 F3 "" -1000 1550 50 H I C CNN
 DRAW

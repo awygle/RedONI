@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 4 5
 Title ""
 Date ""
 Rev ""
@@ -33,7 +33,28 @@ GND
 Wire Wire Line
 	2950 2250 2950 2100
 Wire Wire Line
-	1350 1150 2950 1150
+	1350 1150 1650 1150
 Wire Wire Line
-	1350 2250 2950 2250
+	1350 2250 1650 2250
+$Comp
+L Device:C C?
+U 1 1 5EA7C2F2
+P 1650 1700
+F 0 "C?" H 1765 1746 50  0000 L CNN
+F 1 "0.1uF" H 1765 1655 50  0000 L CNN
+F 2 "" H 1688 1550 50  0001 C CNN
+F 3 "~" H 1650 1700 50  0001 C CNN
+	1    1650 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 1550 1650 1150
+Connection ~ 1650 1150
+Wire Wire Line
+	1650 1150 2950 1150
+Wire Wire Line
+	1650 1850 1650 2250
+Connection ~ 1650 2250
+Wire Wire Line
+	1650 2250 2950 2250
 $EndSCHEMATC
