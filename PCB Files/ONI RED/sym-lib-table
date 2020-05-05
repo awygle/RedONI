@@ -1,5 +1,4 @@
 (sym_lib_table
   (lib (name Custom_Symbols)(type Legacy)(uri ${KIPRJMOD}/Custom_Symbols.lib)(options "")(descr ""))
   (lib (name ONI-RED-rescue)(type Legacy)(uri "${KIPRJMOD}/ONI RED-rescue.lib")(options "")(descr ""))
-  (lib (name FPGA_Lattice)(type Legacy)(uri "C:/Users/Ethan/Documents/GitHub/RedONI/PCB Files/ONI RED/FPGA_Lattice.lib")(options "")(descr ""))
 )

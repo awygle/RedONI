@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 5 5
 Title ""
 Date ""
 Rev ""
@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Interface_Ethernet:KSZ9031RNXCA U?
-U 1 1 5EA75281
+L Interface_Ethernet:KSZ9031RNXCA U4
+U 1 1 5EBFAB06
 P 3900 4350
-AR Path="/5EA74211/5EA75281" Ref="U?"  Part="1" 
-AR Path="/5EE1B380/5EA75281" Ref="U?"  Part="1" 
-F 0 "U?" H 3150 2750 50  0000 C CNN
+AR Path="/5EA74211/5EBFAB06" Ref="U4"  Part="1" 
+AR Path="/5EE1B380/5EBFAB06" Ref="U?"  Part="1" 
+F 0 "U4" H 3150 2750 50  0000 C CNN
 F 1 "KSZ9031RNXCA" H 3150 2650 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm" H 4350 2800 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/00002117C.pdf" H 3900 2700 50  0001 C CNN
@@ -27,12 +27,12 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/00002117C.pdf" H 3900 2700 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Crystal Y?
-U 1 1 5EA761B4
+L Device:Crystal Y1
+U 1 1 5EBFAB07
 P 5950 5500
-AR Path="/5EA74211/5EA761B4" Ref="Y?"  Part="1" 
-AR Path="/5EE1B380/5EA761B4" Ref="Y?"  Part="1" 
-F 0 "Y?" V 5904 5631 50  0000 L CNN
+AR Path="/5EA74211/5EBFAB07" Ref="Y1"  Part="1" 
+AR Path="/5EE1B380/5EBFAB07" Ref="Y?"  Part="1" 
+F 0 "Y1" V 5904 5631 50  0000 L CNN
 F 1 "25MHz" V 5995 5631 50  0000 L CNN
 F 2 "" H 5950 5500 50  0001 C CNN
 F 3 "~" H 5950 5500 50  0001 C CNN
@@ -40,12 +40,12 @@ F 3 "~" H 5950 5500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
-U 1 1 5EAA55CC
+L Device:C C23
+U 1 1 5EBFAB09
 P 6550 5300
-AR Path="/5EA74211/5EAA55CC" Ref="C?"  Part="1" 
-AR Path="/5EE1B380/5EAA55CC" Ref="C?"  Part="1" 
-F 0 "C?" V 6298 5300 50  0000 C CNN
+AR Path="/5EA74211/5EBFAB09" Ref="C23"  Part="1" 
+AR Path="/5EE1B380/5EBFAB09" Ref="C?"  Part="1" 
+F 0 "C23" V 6298 5300 50  0000 C CNN
 F 1 "22pF" V 6389 5300 50  0000 C CNN
 F 2 "" H 6588 5150 50  0001 C CNN
 F 3 "~" H 6550 5300 50  0001 C CNN
@@ -53,93 +53,31 @@ F 3 "~" H 6550 5300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
-U 1 1 5EAA652B
+L Device:C C24
+U 1 1 5EBFAB0A
 P 6550 5750
-AR Path="/5EA74211/5EAA652B" Ref="C?"  Part="1" 
-AR Path="/5EE1B380/5EAA652B" Ref="C?"  Part="1" 
-F 0 "C?" V 6298 5750 50  0000 C CNN
+AR Path="/5EA74211/5EBFAB0A" Ref="C24"  Part="1" 
+AR Path="/5EE1B380/5EBFAB0A" Ref="C?"  Part="1" 
+F 0 "C24" V 6298 5750 50  0000 C CNN
 F 1 "22pF" V 6389 5750 50  0000 C CNN
 F 2 "" H 6588 5600 50  0001 C CNN
 F 3 "~" H 6550 5750 50  0001 C CNN
 	1    6550 5750
 	0    1    1    0   
 $EndComp
-Entry Wire Line
-	2150 3550 2250 3650
-Entry Wire Line
-	2150 3650 2250 3750
-Entry Wire Line
-	2150 3750 2250 3850
-Entry Wire Line
-	2150 3850 2250 3950
-Entry Wire Line
-	2150 3950 2250 4050
-Entry Wire Line
-	2150 4050 2250 4150
-Entry Wire Line
-	1100 4250 1200 4350
-Entry Wire Line
-	1100 4350 1200 4450
-Entry Wire Line
-	1100 4450 1200 4550
-Entry Wire Line
-	1100 4550 1200 4650
-Entry Wire Line
-	1100 4650 1200 4750
-Entry Wire Line
-	1100 4750 1200 4850
-Text HLabel 1050 3500 0    50   Output ~ 0
-TX_BUS
-Text HLabel 900  4250 0    50   Output ~ 0
-RX_BUS
 $Comp
-L Device:R R?
-U 1 1 5EAB5C8C
+L Device:R R13
+U 1 1 5EBFAB0C
 P 2400 3000
-AR Path="/5EA74211/5EAB5C8C" Ref="R?"  Part="1" 
-AR Path="/5EE1B380/5EAB5C8C" Ref="R?"  Part="1" 
-F 0 "R?" H 2470 3046 50  0000 L CNN
+AR Path="/5EA74211/5EBFAB0C" Ref="R13"  Part="1" 
+AR Path="/5EE1B380/5EBFAB0C" Ref="R?"  Part="1" 
+F 0 "R13" H 2470 3046 50  0000 L CNN
 F 1 "4.7K" H 2470 2955 50  0000 L CNN
 F 2 "" V 2330 3000 50  0001 C CNN
 F 3 "~" H 2400 3000 50  0001 C CNN
 	1    2400 3000
 	1    0    0    -1  
 $EndComp
-Text HLabel 1150 3150 0    50   Output ~ 0
-GENERAL_BUS
-Entry Wire Line
-	2150 3250 2250 3350
-Entry Wire Line
-	2150 3350 2250 3450
-Text Label 2300 3650 0    50   ~ 0
-TX_EN
-Text Label 2300 3750 0    50   ~ 0
-TXDO
-Text Label 2300 3850 0    50   ~ 0
-TXD1
-Text Label 2300 3950 0    50   ~ 0
-TXD2
-Text Label 2300 4050 0    50   ~ 0
-TXD3
-Text Label 2250 4150 0    50   ~ 0
-GTX_CLK
-Text Label 2250 4350 0    50   ~ 0
-RX_DV
-Text Label 2250 4450 0    50   ~ 0
-RXD0
-Text Label 2250 4550 0    50   ~ 0
-RXD1
-Text Label 2250 4650 0    50   ~ 0
-RXD2
-Text Label 2250 4750 0    50   ~ 0
-RX23
-Text Label 2250 4850 0    50   ~ 0
-RX_CLK
-Text Label 2300 3350 0    50   ~ 0
-MDC
-Text Label 2300 3450 0    50   ~ 0
-MDIO
 Text HLabel 3950 2300 0    50   Input ~ 0
 DVDDL
 Text HLabel 5000 2350 2    50   Input ~ 0
@@ -147,12 +85,12 @@ AVDDL
 Text HLabel 3700 6450 0    50   BiDi ~ 0
 GND
 $Comp
-L Device:R R?
-U 1 1 5EAA1618
+L Device:R R15
+U 1 1 5EBFAB08
 P 4300 6200
-AR Path="/5EA74211/5EAA1618" Ref="R?"  Part="1" 
-AR Path="/5EE1B380/5EAA1618" Ref="R?"  Part="1" 
-F 0 "R?" H 4370 6246 50  0000 L CNN
+AR Path="/5EA74211/5EBFAB08" Ref="R15"  Part="1" 
+AR Path="/5EE1B380/5EBFAB08" Ref="R?"  Part="1" 
+F 0 "R15" H 4370 6246 50  0000 L CNN
 F 1 "12.1k" H 4370 6155 50  0000 L CNN
 F 2 "" V 4230 6200 50  0001 C CNN
 F 3 "~" H 4300 6200 50  0001 C CNN
@@ -163,12 +101,12 @@ Text HLabel 7150 5550 2    50   BiDi ~ 0
 GND
 NoConn ~ 5200 3550
 $Comp
-L Connector:JK0654219 J?
+L Connector:JK0654219 J1
 U 1 1 5EAABC08
 P 10100 4300
-AR Path="/5EA74211/5EAABC08" Ref="J?"  Part="1" 
+AR Path="/5EA74211/5EAABC08" Ref="J1"  Part="1" 
 AR Path="/5EE1B380/5EAABC08" Ref="J?"  Part="1" 
-F 0 "J?" H 10730 4289 50  0000 L CNN
+F 0 "J1" H 10730 4289 50  0000 L CNN
 F 1 "JK0654219" H 10730 4198 50  0000 L CNN
 F 2 "Connector_RJ:RJ45_Pulse_JK0654219NL_Horizontal" H 10095 3005 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Pulse%20PDFs/JK%20Series.pdf" H 10095 3005 50  0001 C CNN
@@ -212,8 +150,6 @@ Wire Wire Line
 Connection ~ 6900 5550
 Wire Wire Line
 	6900 5550 6900 5750
-Wire Bus Line
-	2150 3500 1050 3500
 Wire Wire Line
 	2600 3650 2250 3650
 Wire Wire Line
@@ -271,8 +207,6 @@ Wire Wire Line
 	4500 2750 4500 2600
 Wire Wire Line
 	4600 2600 4600 2750
-Wire Bus Line
-	1150 3150 2150 3150
 Wire Wire Line
 	2200 2650 2400 2650
 Wire Wire Line
@@ -280,16 +214,16 @@ Wire Wire Line
 Wire Wire Line
 	2600 3350 2250 3350
 Wire Wire Line
-	2250 3450 2500 3450
+	2250 3450 2550 3450
 Wire Wire Line
 	2400 3150 2400 3200
 Wire Wire Line
-	2400 3200 2500 3200
+	2400 3200 2550 3200
 Wire Wire Line
-	2500 3200 2500 3450
-Connection ~ 2500 3450
+	2550 3200 2550 3450
+Connection ~ 2550 3450
 Wire Wire Line
-	2500 3450 2600 3450
+	2550 3450 2600 3450
 Wire Wire Line
 	3550 2450 3550 2600
 Connection ~ 3550 2600
@@ -403,12 +337,12 @@ P_D
 Text Label 7500 5000 0    50   ~ 0
 M_D
 $Comp
-L Device:C_Small C?
-U 1 1 5EB08643
+L Device:C_Small C27
+U 1 1 5EBFAB0D
 P 7750 3050
-AR Path="/5EA74211/5EB08643" Ref="C?"  Part="1" 
-AR Path="/5EE1B380/5EB08643" Ref="C?"  Part="1" 
-F 0 "C?" V 7700 2950 50  0000 C CNN
+AR Path="/5EA74211/5EBFAB0D" Ref="C27"  Part="1" 
+AR Path="/5EE1B380/5EBFAB0D" Ref="C?"  Part="1" 
+F 0 "C27" V 7700 2950 50  0000 C CNN
 F 1 "0.1uF" V 7700 3250 50  0000 C CNN
 F 2 "" H 7750 3050 50  0001 C CNN
 F 3 "~" H 7750 3050 50  0001 C CNN
@@ -416,12 +350,12 @@ F 3 "~" H 7750 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
-U 1 1 5EB08EB1
+L Device:C_Small C26
+U 1 1 5EBFAB0E
 P 7750 2900
-AR Path="/5EA74211/5EB08EB1" Ref="C?"  Part="1" 
-AR Path="/5EE1B380/5EB08EB1" Ref="C?"  Part="1" 
-F 0 "C?" V 7700 2800 50  0000 C CNN
+AR Path="/5EA74211/5EBFAB0E" Ref="C26"  Part="1" 
+AR Path="/5EE1B380/5EBFAB0E" Ref="C?"  Part="1" 
+F 0 "C26" V 7700 2800 50  0000 C CNN
 F 1 "0.1uF" V 7700 3100 50  0000 C CNN
 F 2 "" H 7750 2900 50  0001 C CNN
 F 3 "~" H 7750 2900 50  0001 C CNN
@@ -429,12 +363,12 @@ F 3 "~" H 7750 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
-U 1 1 5EB09806
+L Device:C_Small C25
+U 1 1 5EBFAB0F
 P 7750 2750
-AR Path="/5EA74211/5EB09806" Ref="C?"  Part="1" 
-AR Path="/5EE1B380/5EB09806" Ref="C?"  Part="1" 
-F 0 "C?" V 7700 2650 50  0000 C CNN
+AR Path="/5EA74211/5EBFAB0F" Ref="C25"  Part="1" 
+AR Path="/5EE1B380/5EBFAB0F" Ref="C?"  Part="1" 
+F 0 "C25" V 7700 2650 50  0000 C CNN
 F 1 "0.1uF" V 7700 2950 50  0000 C CNN
 F 2 "" H 7750 2750 50  0001 C CNN
 F 3 "~" H 7750 2750 50  0001 C CNN
@@ -442,12 +376,12 @@ F 3 "~" H 7750 2750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
-U 1 1 5EB0A0C5
+L Device:C_Small C28
+U 1 1 5EBFAB10
 P 7750 3200
-AR Path="/5EA74211/5EB0A0C5" Ref="C?"  Part="1" 
-AR Path="/5EE1B380/5EB0A0C5" Ref="C?"  Part="1" 
-F 0 "C?" V 7700 3100 50  0000 C CNN
+AR Path="/5EA74211/5EBFAB10" Ref="C28"  Part="1" 
+AR Path="/5EE1B380/5EBFAB10" Ref="C?"  Part="1" 
+F 0 "C28" V 7700 3100 50  0000 C CNN
 F 1 "0.1uF" V 7700 3400 50  0000 C CNN
 F 2 "" H 7750 3200 50  0001 C CNN
 F 3 "~" H 7750 3200 50  0001 C CNN
@@ -498,8 +432,6 @@ Wire Wire Line
 	7450 2900 7450 3050
 Wire Wire Line
 	7150 2900 7450 2900
-Wire Bus Line
-	900  4250 1100 4250
 Text HLabel 2200 2650 0    50   Input ~ 0
 +3.3V
 Wire Wire Line
@@ -509,16 +441,8 @@ Text HLabel 1150 3950 0    50   Input ~ 0
 +3.3V
 Wire Wire Line
 	1150 3950 1300 3950
-Text HLabel 1150 6100 0    50   Output ~ 0
-GENERAL_BUS
-Entry Wire Line
-	1450 5550 1550 5450
-Entry Wire Line
-	1450 5850 1550 5750
 Text HLabel 2050 1950 0    50   BiDi ~ 0
 GND
-Wire Wire Line
-	1200 4350 1300 4350
 Connection ~ 1300 4350
 Wire Wire Line
 	1300 4350 2600 4350
@@ -538,12 +462,12 @@ Wire Wire Line
 Wire Wire Line
 	3150 2450 3550 2450
 $Comp
-L Device:C_Small C?
+L Device:C_Small C13
 U 1 1 5ECEE10B
 P 2550 2250
-AR Path="/5EA74211/5ECEE10B" Ref="C?"  Part="1" 
+AR Path="/5EA74211/5ECEE10B" Ref="C13"  Part="1" 
 AR Path="/5EE1B380/5ECEE10B" Ref="C?"  Part="1" 
-F 0 "C?" V 2500 2100 50  0000 L CNN
+F 0 "C13" V 2500 2100 50  0000 L CNN
 F 1 "0.1uF" V 2500 2300 50  0000 L CNN
 F 2 "" H 2550 2250 50  0001 C CNN
 F 3 "~" H 2550 2250 50  0001 C CNN
@@ -551,51 +475,51 @@ F 3 "~" H 2550 2250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C12
 U 1 1 5ECF7566
 P 2550 2100
-AR Path="/5EA74211/5ECF7566" Ref="C?"  Part="1" 
+AR Path="/5EA74211/5ECF7566" Ref="C12"  Part="1" 
 AR Path="/5EE1B380/5ECF7566" Ref="C?"  Part="1" 
-F 0 "C?" V 2500 1950 50  0000 L CNN
-F 1 "0.1uF" V 2500 2150 50  0000 L CNN
+F 0 "C12" V 2500 1950 50  0000 L CNN
+F 1 "1uF" V 2500 2150 50  0000 L CNN
 F 2 "" H 2550 2100 50  0001 C CNN
 F 3 "~" H 2550 2100 50  0001 C CNN
 	1    2550 2100
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C11
 U 1 1 5ECF7795
 P 2550 1950
-AR Path="/5EA74211/5ECF7795" Ref="C?"  Part="1" 
+AR Path="/5EA74211/5ECF7795" Ref="C11"  Part="1" 
 AR Path="/5EE1B380/5ECF7795" Ref="C?"  Part="1" 
-F 0 "C?" V 2500 1800 50  0000 L CNN
-F 1 "0.1uF" V 2500 2000 50  0000 L CNN
+F 0 "C11" V 2500 1800 50  0000 L CNN
+F 1 "10uF" V 2500 2000 50  0000 L CNN
 F 2 "" H 2550 1950 50  0001 C CNN
 F 3 "~" H 2550 1950 50  0001 C CNN
 	1    2550 1950
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C10
 U 1 1 5ECFD1C8
 P 2550 1800
-AR Path="/5EA74211/5ECFD1C8" Ref="C?"  Part="1" 
+AR Path="/5EA74211/5ECFD1C8" Ref="C10"  Part="1" 
 AR Path="/5EE1B380/5ECFD1C8" Ref="C?"  Part="1" 
-F 0 "C?" V 2500 1650 50  0000 L CNN
-F 1 "0.1uF" V 2500 1850 50  0000 L CNN
+F 0 "C10" V 2500 1650 50  0000 L CNN
+F 1 "100nF" V 2500 1850 50  0000 L CNN
 F 2 "" H 2550 1800 50  0001 C CNN
 F 3 "~" H 2550 1800 50  0001 C CNN
 	1    2550 1800
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C9
 U 1 1 5ECFD38F
 P 2550 1650
-AR Path="/5EA74211/5ECFD38F" Ref="C?"  Part="1" 
+AR Path="/5EA74211/5ECFD38F" Ref="C9"  Part="1" 
 AR Path="/5EE1B380/5ECFD38F" Ref="C?"  Part="1" 
-F 0 "C?" V 2500 1500 50  0000 L CNN
+F 0 "C9" V 2500 1500 50  0000 L CNN
 F 1 "0.1uF" V 2500 1700 50  0000 L CNN
 F 2 "" H 2550 1650 50  0001 C CNN
 F 3 "~" H 2550 1650 50  0001 C CNN
@@ -650,12 +574,12 @@ Connection ~ 3150 2250
 Wire Wire Line
 	3150 2250 3150 2450
 $Comp
-L Device:C_Small C?
+L Device:C_Small C19
 U 1 1 5ED3AA4A
 P 3800 2050
-AR Path="/5EA74211/5ED3AA4A" Ref="C?"  Part="1" 
+AR Path="/5EA74211/5ED3AA4A" Ref="C19"  Part="1" 
 AR Path="/5EE1B380/5ED3AA4A" Ref="C?"  Part="1" 
-F 0 "C?" V 3750 1900 50  0000 L CNN
+F 0 "C19" V 3750 1900 50  0000 L CNN
 F 1 "0.1uF" V 3750 2100 50  0000 L CNN
 F 2 "" H 3800 2050 50  0001 C CNN
 F 3 "~" H 3800 2050 50  0001 C CNN
@@ -663,51 +587,51 @@ F 3 "~" H 3800 2050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C18
 U 1 1 5ED3AA50
 P 3800 1900
-AR Path="/5EA74211/5ED3AA50" Ref="C?"  Part="1" 
+AR Path="/5EA74211/5ED3AA50" Ref="C18"  Part="1" 
 AR Path="/5EE1B380/5ED3AA50" Ref="C?"  Part="1" 
-F 0 "C?" V 3750 1750 50  0000 L CNN
-F 1 "0.1uF" V 3750 1950 50  0000 L CNN
+F 0 "C18" V 3750 1750 50  0000 L CNN
+F 1 "1uF" V 3750 1950 50  0000 L CNN
 F 2 "" H 3800 1900 50  0001 C CNN
 F 3 "~" H 3800 1900 50  0001 C CNN
 	1    3800 1900
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C17
 U 1 1 5ED3AA56
 P 3800 1750
-AR Path="/5EA74211/5ED3AA56" Ref="C?"  Part="1" 
+AR Path="/5EA74211/5ED3AA56" Ref="C17"  Part="1" 
 AR Path="/5EE1B380/5ED3AA56" Ref="C?"  Part="1" 
-F 0 "C?" V 3750 1600 50  0000 L CNN
-F 1 "0.1uF" V 3750 1800 50  0000 L CNN
+F 0 "C17" V 3750 1600 50  0000 L CNN
+F 1 "10uF" V 3750 1800 50  0000 L CNN
 F 2 "" H 3800 1750 50  0001 C CNN
 F 3 "~" H 3800 1750 50  0001 C CNN
 	1    3800 1750
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C16
 U 1 1 5ED3AA5C
 P 3800 1600
-AR Path="/5EA74211/5ED3AA5C" Ref="C?"  Part="1" 
+AR Path="/5EA74211/5ED3AA5C" Ref="C16"  Part="1" 
 AR Path="/5EE1B380/5ED3AA5C" Ref="C?"  Part="1" 
-F 0 "C?" V 3750 1450 50  0000 L CNN
-F 1 "0.1uF" V 3750 1650 50  0000 L CNN
+F 0 "C16" V 3750 1450 50  0000 L CNN
+F 1 "100nF" V 3750 1650 50  0000 L CNN
 F 2 "" H 3800 1600 50  0001 C CNN
 F 3 "~" H 3800 1600 50  0001 C CNN
 	1    3800 1600
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C15
 U 1 1 5ED3AA62
 P 3800 1450
-AR Path="/5EA74211/5ED3AA62" Ref="C?"  Part="1" 
+AR Path="/5EA74211/5ED3AA62" Ref="C15"  Part="1" 
 AR Path="/5EE1B380/5ED3AA62" Ref="C?"  Part="1" 
-F 0 "C?" V 3750 1300 50  0000 L CNN
+F 0 "C15" V 3750 1300 50  0000 L CNN
 F 1 "0.1uF" V 3750 1500 50  0000 L CNN
 F 2 "" H 3800 1450 50  0001 C CNN
 F 3 "~" H 3800 1450 50  0001 C CNN
@@ -715,13 +639,13 @@ F 3 "~" H 3800 1450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C14
 U 1 1 5ED41050
 P 3800 1300
-AR Path="/5EA74211/5ED41050" Ref="C?"  Part="1" 
+AR Path="/5EA74211/5ED41050" Ref="C14"  Part="1" 
 AR Path="/5EE1B380/5ED41050" Ref="C?"  Part="1" 
-F 0 "C?" V 3750 1150 50  0000 L CNN
-F 1 "0.1uF" V 3750 1350 50  0000 L CNN
+F 0 "C14" V 3750 1150 50  0000 L CNN
+F 1 "10uF" V 3750 1350 50  0000 L CNN
 F 2 "" H 3800 1300 50  0001 C CNN
 F 3 "~" H 3800 1300 50  0001 C CNN
 	1    3800 1300
@@ -792,38 +716,38 @@ Connection ~ 2350 1650
 Wire Wire Line
 	4600 2350 4600 2600
 $Comp
-L Device:C_Small C?
+L Device:C_Small C22
 U 1 1 5EDA88AB
 P 4450 2050
-AR Path="/5EA74211/5EDA88AB" Ref="C?"  Part="1" 
+AR Path="/5EA74211/5EDA88AB" Ref="C22"  Part="1" 
 AR Path="/5EE1B380/5EDA88AB" Ref="C?"  Part="1" 
-F 0 "C?" V 4400 1900 50  0000 L CNN
-F 1 "0.1uF" V 4400 2100 50  0000 L CNN
+F 0 "C22" V 4400 1900 50  0000 L CNN
+F 1 "10uF" V 4400 2100 50  0000 L CNN
 F 2 "" H 4450 2050 50  0001 C CNN
 F 3 "~" H 4450 2050 50  0001 C CNN
 	1    4450 2050
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C21
 U 1 1 5EDA8B26
 P 4450 1900
-AR Path="/5EA74211/5EDA8B26" Ref="C?"  Part="1" 
+AR Path="/5EA74211/5EDA8B26" Ref="C21"  Part="1" 
 AR Path="/5EE1B380/5EDA8B26" Ref="C?"  Part="1" 
-F 0 "C?" V 4400 1750 50  0000 L CNN
-F 1 "0.1uF" V 4400 1950 50  0000 L CNN
+F 0 "C21" V 4400 1750 50  0000 L CNN
+F 1 "1uF" V 4400 1950 50  0000 L CNN
 F 2 "" H 4450 1900 50  0001 C CNN
 F 3 "~" H 4450 1900 50  0001 C CNN
 	1    4450 1900
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C20
 U 1 1 5EDA8C47
 P 4450 1750
-AR Path="/5EA74211/5EDA8C47" Ref="C?"  Part="1" 
+AR Path="/5EA74211/5EDA8C47" Ref="C20"  Part="1" 
 AR Path="/5EE1B380/5EDA8C47" Ref="C?"  Part="1" 
-F 0 "C?" V 4400 1600 50  0000 L CNN
+F 0 "C20" V 4400 1600 50  0000 L CNN
 F 1 "0.1uF" V 4400 1800 50  0000 L CNN
 F 2 "" H 4450 1750 50  0001 C CNN
 F 3 "~" H 4450 1750 50  0001 C CNN
@@ -872,12 +796,12 @@ Connection ~ 2350 1300
 Wire Wire Line
 	800  5450 900  5450
 $Comp
-L Device:R R?
+L Device:R R6
 U 1 1 5EB5DA04
 P 1100 5450
-AR Path="/5EA74211/5EB5DA04" Ref="R?"  Part="1" 
+AR Path="/5EA74211/5EB5DA04" Ref="R6"  Part="1" 
 AR Path="/5EE1B380/5EB5DA04" Ref="R?"  Part="1" 
-F 0 "R?" V 1050 5550 50  0000 L CNN
+F 0 "R6" V 1050 5550 50  0000 L CNN
 F 1 "4.7K" V 1050 5150 50  0000 L CNN
 F 2 "" V 1030 5450 50  0001 C CNN
 F 3 "~" H 1100 5450 50  0001 C CNN
@@ -887,12 +811,12 @@ $EndComp
 Text HLabel 800  5450 0    50   Input ~ 0
 +3.3V
 $Comp
-L Device:R_Small R?
+L Device:R_Small R11
 U 1 1 5EE3A719
 P 1300 4150
-AR Path="/5EA74211/5EE3A719" Ref="R?"  Part="1" 
+AR Path="/5EA74211/5EE3A719" Ref="R11"  Part="1" 
 AR Path="/5EE1B380/5EE3A719" Ref="R?"  Part="1" 
-F 0 "R?" H 1359 4196 50  0000 L CNN
+F 0 "R11" H 1359 4196 50  0000 L CNN
 F 1 "4.7k" H 1359 4105 50  0000 L CNN
 F 2 "" H 1300 4150 50  0001 C CNN
 F 3 "~" H 1300 4150 50  0001 C CNN
@@ -904,12 +828,12 @@ Wire Wire Line
 Wire Wire Line
 	1300 4250 1300 4350
 $Comp
-L Device:R_Small R?
-U 1 1 5EE528DF
+L Device:R_Small R7
+U 1 1 5EBFAB17
 P 1250 4950
-AR Path="/5EA74211/5EE528DF" Ref="R?"  Part="1" 
-AR Path="/5EE1B380/5EE528DF" Ref="R?"  Part="1" 
-F 0 "R?" V 1200 4800 50  0000 C CNN
+AR Path="/5EA74211/5EBFAB17" Ref="R7"  Part="1" 
+AR Path="/5EE1B380/5EBFAB17" Ref="R?"  Part="1" 
+F 0 "R7" V 1200 4800 50  0000 C CNN
 F 1 "4.7k" V 1200 5100 50  0000 C CNN
 F 2 "" H 1250 4950 50  0001 C CNN
 F 3 "~" H 1250 4950 50  0001 C CNN
@@ -917,12 +841,12 @@ F 3 "~" H 1250 4950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R8
 U 1 1 5EE538BC
 P 1250 5050
-AR Path="/5EA74211/5EE538BC" Ref="R?"  Part="1" 
+AR Path="/5EA74211/5EE538BC" Ref="R8"  Part="1" 
 AR Path="/5EE1B380/5EE538BC" Ref="R?"  Part="1" 
-F 0 "R?" V 1200 4900 50  0000 C CNN
+F 0 "R8" V 1200 4900 50  0000 C CNN
 F 1 "4.7k" V 1200 5200 50  0000 C CNN
 F 2 "" H 1250 5050 50  0001 C CNN
 F 3 "~" H 1250 5050 50  0001 C CNN
@@ -930,12 +854,12 @@ F 3 "~" H 1250 5050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R9
 U 1 1 5EE53A43
 P 1250 5150
-AR Path="/5EA74211/5EE53A43" Ref="R?"  Part="1" 
+AR Path="/5EA74211/5EE53A43" Ref="R9"  Part="1" 
 AR Path="/5EE1B380/5EE53A43" Ref="R?"  Part="1" 
-F 0 "R?" V 1200 5000 50  0000 C CNN
+F 0 "R9" V 1200 5000 50  0000 C CNN
 F 1 "4.7k" V 1200 5300 50  0000 C CNN
 F 2 "" H 1250 5150 50  0001 C CNN
 F 3 "~" H 1250 5150 50  0001 C CNN
@@ -943,12 +867,12 @@ F 3 "~" H 1250 5150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R10
 U 1 1 5EE5E9F7
 P 1250 5250
-AR Path="/5EA74211/5EE5E9F7" Ref="R?"  Part="1" 
+AR Path="/5EA74211/5EE5E9F7" Ref="R10"  Part="1" 
 AR Path="/5EE1B380/5EE5E9F7" Ref="R?"  Part="1" 
-F 0 "R?" V 1200 5100 50  0000 C CNN
+F 0 "R10" V 1200 5100 50  0000 C CNN
 F 1 "4.7k" V 1200 5400 50  0000 C CNN
 F 2 "" H 1250 5250 50  0001 C CNN
 F 3 "~" H 1250 5250 50  0001 C CNN
@@ -978,15 +902,13 @@ Wire Wire Line
 Connection ~ 900  5450
 Wire Wire Line
 	900  5450 950  5450
-Wire Wire Line
-	1200 4850 2200 4850
 $Comp
-L Device:D D?
+L Device:D D2
 U 1 1 5EF29687
 P 2400 6050
-AR Path="/5EA74211/5EF29687" Ref="D?"  Part="1" 
+AR Path="/5EA74211/5EF29687" Ref="D2"  Part="1" 
 AR Path="/5EE1B380/5EF29687" Ref="D?"  Part="1" 
-F 0 "D?" V 2446 5971 50  0000 R CNN
+F 0 "D2" V 2446 5971 50  0000 R CNN
 F 1 "1N4148" V 2355 5971 50  0000 R CNN
 F 2 "" H 2400 6050 50  0001 C CNN
 F 3 "~" H 2400 6050 50  0001 C CNN
@@ -994,12 +916,12 @@ F 3 "~" H 2400 6050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R12
 U 1 1 5EF2ABEF
 P 2300 6050
-AR Path="/5EA74211/5EF2ABEF" Ref="R?"  Part="1" 
+AR Path="/5EA74211/5EF2ABEF" Ref="R12"  Part="1" 
 AR Path="/5EE1B380/5EF2ABEF" Ref="R?"  Part="1" 
-F 0 "R?" H 2150 6100 50  0000 L CNN
+F 0 "R12" H 2150 6100 50  0000 L CNN
 F 1 "10k" H 2100 6000 50  0000 L CNN
 F 2 "" H 2300 6050 50  0001 C CNN
 F 3 "~" H 2300 6050 50  0001 C CNN
@@ -1017,12 +939,12 @@ Wire Wire Line
 Wire Wire Line
 	2300 6300 2400 6300
 $Comp
-L Device:D D?
+L Device:D D1
 U 1 1 5EF59B08
 P 1900 5750
-AR Path="/5EA74211/5EF59B08" Ref="D?"  Part="1" 
+AR Path="/5EA74211/5EF59B08" Ref="D1"  Part="1" 
 AR Path="/5EE1B380/5EF59B08" Ref="D?"  Part="1" 
-F 0 "D?" H 1900 5966 50  0000 C CNN
+F 0 "D1" H 1900 5966 50  0000 C CNN
 F 1 "1N4148" H 1900 5875 50  0000 C CNN
 F 2 "" H 1900 5750 50  0001 C CNN
 F 3 "~" H 1900 5750 50  0001 C CNN
@@ -1037,12 +959,12 @@ Wire Wire Line
 	2300 6150 2300 6300
 Connection ~ 2300 6300
 $Comp
-L Device:CP1_Small C?
+L Device:CP1_Small C8
 U 1 1 5EFC820B
 P 2000 6050
-AR Path="/5EA74211/5EFC820B" Ref="C?"  Part="1" 
+AR Path="/5EA74211/5EFC820B" Ref="C8"  Part="1" 
 AR Path="/5EE1B380/5EFC820B" Ref="C?"  Part="1" 
-F 0 "C?" H 1900 6000 50  0000 R CNN
+F 0 "C8" H 1900 6000 50  0000 R CNN
 F 1 "10uF" H 1900 6100 50  0000 R CNN
 F 2 "" H 2000 6050 50  0001 C CNN
 F 3 "~" H 2000 6050 50  0001 C CNN
@@ -1069,14 +991,6 @@ Wire Wire Line
 	1900 6350 2000 6350
 Wire Wire Line
 	2000 6350 2000 6150
-Wire Wire Line
-	1200 4750 1650 4750
-Wire Wire Line
-	1200 4650 1600 4650
-Wire Wire Line
-	1200 4550 1550 4550
-Wire Wire Line
-	1200 4450 1500 4450
 Wire Wire Line
 	1350 4950 1500 4950
 Wire Wire Line
@@ -1107,12 +1021,6 @@ Wire Wire Line
 	1650 4750 2600 4750
 Wire Wire Line
 	1550 5750 1750 5750
-Text GLabel 2100 5150 0    50   BiDi ~ 0
-PHYAD0
-Text GLabel 2100 5050 0    50   BiDi ~ 0
-PHYAD1
-Text GLabel 2100 4950 0    50   BiDi ~ 0
-PHYAD2
 Wire Wire Line
 	2100 4950 2200 4950
 Wire Wire Line
@@ -1124,8 +1032,6 @@ Wire Wire Line
 	2100 5050 2600 5050
 Wire Wire Line
 	2600 5150 2100 5150
-Text Label 1600 5450 0    50   ~ 0
-CLK125
 Wire Wire Line
 	2050 5750 2150 5750
 Wire Wire Line
@@ -1137,22 +1043,8 @@ Wire Wire Line
 Connection ~ 2150 5750
 Wire Wire Line
 	2150 5750 2350 5750
-Text Label 1600 5750 0    50   ~ 0
-RST
-Text GLabel 2050 5250 0    50   BiDi ~ 0
-INT_N
-Text GLabel 1850 6850 2    50   BiDi ~ 0
-INT_N
-Entry Wire Line
-	1350 6100 1450 6200
 Wire Wire Line
-	1850 6850 1450 6850
-Wire Wire Line
-	1450 6850 1450 6200
-Text Label 1750 6850 2    50   ~ 0
-INT_N
-Wire Wire Line
-	2050 5250 2600 5250
+	2100 5250 2600 5250
 Wire Bus Line
 	5700 3500 7350 3500
 Wire Wire Line
@@ -1171,10 +1063,6 @@ Wire Wire Line
 	7450 4800 9400 4800
 Wire Wire Line
 	7450 5000 9400 5000
-Text GLabel 8700 3200 0    50   BiDi ~ 0
-PHYAD0
-Text GLabel 8850 5300 0    50   BiDi ~ 0
-PHYAD1
 Text HLabel 9050 2800 0    50   Input ~ 0
 +3.3V
 Wire Wire Line
@@ -1184,12 +1072,12 @@ Wire Wire Line
 Text HLabel 8900 2900 0    50   BiDi ~ 0
 GND
 $Comp
-L Device:R_Small R?
-U 1 1 5ED24258
+L Device:R_Small R19
+U 1 1 5EBFAB12
 P 9200 3050
-AR Path="/5EA74211/5ED24258" Ref="R?"  Part="1" 
-AR Path="/5EE1B380/5ED24258" Ref="R?"  Part="1" 
-F 0 "R?" H 9259 3096 50  0000 L CNN
+AR Path="/5EA74211/5EBFAB12" Ref="R19"  Part="1" 
+AR Path="/5EE1B380/5EBFAB12" Ref="R?"  Part="1" 
+F 0 "R19" H 9259 3096 50  0000 L CNN
 F 1 "220" H 9259 3005 50  0000 L CNN
 F 2 "" H 9200 3050 50  0001 C CNN
 F 3 "~" H 9200 3050 50  0001 C CNN
@@ -1207,12 +1095,12 @@ Wire Wire Line
 Wire Wire Line
 	9100 3200 8700 3200
 $Comp
-L Device:R_Small R?
+L Device:R_Small R16
 U 1 1 5ED5D72C
 P 9100 3050
-AR Path="/5EA74211/5ED5D72C" Ref="R?"  Part="1" 
+AR Path="/5EA74211/5ED5D72C" Ref="R16"  Part="1" 
 AR Path="/5EE1B380/5ED5D72C" Ref="R?"  Part="1" 
-F 0 "R?" H 8950 3100 50  0000 L CNN
+F 0 "R16" H 8900 3100 50  0000 L CNN
 F 1 "1k" H 8900 3000 50  0000 L CNN
 F 2 "" H 9100 3050 50  0001 C CNN
 F 3 "~" H 9100 3050 50  0001 C CNN
@@ -1229,12 +1117,12 @@ Connection ~ 9100 3200
 Text HLabel 8850 5100 0    50   Input ~ 0
 +3.3V
 $Comp
-L Device:R_Small R?
+L Device:R_Small R17
 U 1 1 5ED84568
 P 9100 5100
-AR Path="/5EA74211/5ED84568" Ref="R?"  Part="1" 
+AR Path="/5EA74211/5ED84568" Ref="R17"  Part="1" 
 AR Path="/5EE1B380/5ED84568" Ref="R?"  Part="1" 
-F 0 "R?" V 9150 4950 50  0000 C CNN
+F 0 "R17" V 9150 4950 50  0000 C CNN
 F 1 "220" V 9150 5250 50  0000 C CNN
 F 2 "" H 9100 5100 50  0001 C CNN
 F 3 "~" H 9100 5100 50  0001 C CNN
@@ -1248,12 +1136,12 @@ Wire Wire Line
 Wire Wire Line
 	9400 5100 9400 5200
 $Comp
-L Device:R_Small R?
-U 1 1 5EDAC00F
+L Device:R_Small R18
+U 1 1 5EBFAB15
 P 9150 5500
-AR Path="/5EA74211/5EDAC00F" Ref="R?"  Part="1" 
-AR Path="/5EE1B380/5EDAC00F" Ref="R?"  Part="1" 
-F 0 "R?" H 9000 5550 50  0000 L CNN
+AR Path="/5EA74211/5EBFAB15" Ref="R18"  Part="1" 
+AR Path="/5EE1B380/5EBFAB15" Ref="R?"  Part="1" 
+F 0 "R18" H 8950 5550 50  0000 L CNN
 F 1 "1k" H 9000 5450 50  0000 L CNN
 F 2 "" H 9150 5500 50  0001 C CNN
 F 3 "~" H 9150 5500 50  0001 C CNN
@@ -1278,12 +1166,12 @@ PHY0\nAddress: 0
 Text GLabel 3750 7250 0    50   BiDi ~ 0
 PHYAD2
 $Comp
-L Device:R_Small R?
+L Device:R_Small R14
 U 1 1 5EE489F8
 P 4000 7250
-AR Path="/5EA74211/5EE489F8" Ref="R?"  Part="1" 
+AR Path="/5EA74211/5EE489F8" Ref="R14"  Part="1" 
 AR Path="/5EE1B380/5EE489F8" Ref="R?"  Part="1" 
-F 0 "R?" V 3900 7300 50  0000 L CNN
+F 0 "R14" V 3900 7300 50  0000 L CNN
 F 1 "1k" V 3900 7100 50  0000 L CNN
 F 2 "" H 4000 7250 50  0001 C CNN
 F 3 "~" H 4000 7250 50  0001 C CNN
@@ -1306,20 +1194,73 @@ Wire Notes Line
 	3200 6850 3200 7450
 Text Notes 3600 7050 0    50   ~ 0
 PHYAD2 Pulldown
-Wire Bus Line
-	1150 6100 1450 6100
-Wire Bus Line
-	1450 5550 1450 6100
-Wire Bus Line
-	2150 3150 2150 3350
+Text Label 2100 4950 2    50   ~ 0
+PHYAD2
+Text Label 2100 5050 2    50   ~ 0
+PHYAD1
+Text Label 2100 5150 2    50   ~ 0
+PHYAD0
+Text Label 8700 3200 2    50   ~ 0
+PHYAD0
+Text Label 8850 5300 2    50   ~ 0
+PHYAD1
+Text HLabel 2250 3350 0    50   Input ~ 0
+MDC
+Text HLabel 2250 3450 0    50   Input ~ 0
+MDIO
+Text HLabel 2250 3650 0    50   Input ~ 0
+TX_EN
+Text HLabel 2250 3750 0    50   Input ~ 0
+TXD0
+Text HLabel 2250 3850 0    50   Input ~ 0
+TXD1
+Text HLabel 2250 3950 0    50   Input ~ 0
+TXD2
+Text HLabel 2250 4050 0    50   Input ~ 0
+TXD3
+Text HLabel 2250 4150 0    50   Input ~ 0
+GTX_CLK
 Wire Wire Line
-	1250 5450 2600 5450
-Wire Bus Line
-	1100 4250 1100 4750
-Wire Bus Line
-	2150 3500 2150 4200
+	850  4850 2200 4850
+Wire Wire Line
+	850  4750 1650 4750
+Wire Wire Line
+	850  4650 1600 4650
+Wire Wire Line
+	850  4550 1550 4550
+Wire Wire Line
+	850  4450 1500 4450
+Wire Wire Line
+	850  4350 1300 4350
+Wire Wire Line
+	1250 5450 1650 5450
+Text HLabel 2100 5250 0    50   Input ~ 0
+INT_N
+Text HLabel 1550 5750 0    50   Input ~ 0
+RESET_N
+Text HLabel 1550 5650 0    50   Input ~ 0
+CLK125
+Wire Wire Line
+	1550 5650 1650 5650
+Wire Wire Line
+	1650 5650 1650 5450
 Wire Bus Line
 	7350 3500 7350 5000
 Wire Bus Line
 	5700 3500 5700 5100
+Connection ~ 1650 5450
+Wire Wire Line
+	1650 5450 2600 5450
+Text HLabel 850  4350 0    50   Input ~ 0
+RX_DV
+Text HLabel 850  4450 0    50   Input ~ 0
+RXD0
+Text HLabel 850  4550 0    50   Input ~ 0
+RXD1
+Text HLabel 850  4650 0    50   Input ~ 0
+RXD2
+Text HLabel 850  4750 0    50   Input ~ 0
+RXD3
+Text HLabel 850  4850 0    50   Input ~ 0
+RX_CLK
 $EndSCHEMATC
