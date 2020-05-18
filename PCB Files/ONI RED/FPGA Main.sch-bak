@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 4 6
 Title ""
 Date ""
 Rev ""
@@ -67,21 +67,7 @@ TMS
 Text Label 7650 1750 0    50   ~ 0
 TDO
 Wire Wire Line
-	9650 1150 10150 1150
-Wire Wire Line
-	10150 1250 9650 1250
-Wire Wire Line
-	9650 1350 10150 1350
-Wire Wire Line
-	9650 1450 10150 1450
-Wire Wire Line
-	10150 1750 9650 1750
-Wire Wire Line
-	10150 1850 9650 1850
-Wire Wire Line
 	9650 1950 10150 1950
-Wire Wire Line
-	10150 2050 9650 2050
 Wire Wire Line
 	9650 1550 10150 1550
 Wire Wire Line
@@ -288,4 +274,18 @@ Text HLabel 10150 1950 2    50   Input ~ 0
 RXP1
 Text HLabel 10150 2050 2    50   Input ~ 0
 RXN1
+Wire Wire Line
+	10150 1250 9650 1250
+Wire Wire Line
+	9650 1350 10150 1350
+Wire Wire Line
+	10150 1450 9650 1450
+Wire Wire Line
+	9650 2050 10150 2050
+Wire Wire Line
+	10150 1850 9650 1850
+Wire Wire Line
+	9650 1750 10150 1750
+Wire Wire Line
+	9650 1150 10150 1150
 $EndSCHEMATC
