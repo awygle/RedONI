@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 5 8
 Title ""
 Date ""
 Rev ""
@@ -1114,27 +1114,23 @@ Wire Wire Line
 Wire Wire Line
 	9100 3150 9100 3200
 Connection ~ 9100 3200
-Text HLabel 8850 5100 0    50   Input ~ 0
+Text HLabel 8850 5150 0    50   Input ~ 0
 +3.3V
 $Comp
 L Device:R_Small R17
 U 1 1 5ED84568
-P 9100 5100
+P 9100 5150
 AR Path="/5EA74211/5ED84568" Ref="R17"  Part="1" 
 AR Path="/5EE1B380/5ED84568" Ref="R?"  Part="1" 
-F 0 "R17" V 9150 4950 50  0000 C CNN
-F 1 "220" V 9150 5250 50  0000 C CNN
-F 2 "" H 9100 5100 50  0001 C CNN
-F 3 "~" H 9100 5100 50  0001 C CNN
-	1    9100 5100
+F 0 "R17" V 9150 5000 50  0000 C CNN
+F 1 "220" V 9150 5300 50  0000 C CNN
+F 2 "" H 9100 5150 50  0001 C CNN
+F 3 "~" H 9100 5150 50  0001 C CNN
+	1    9100 5150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8850 5100 9000 5100
-Wire Wire Line
-	9200 5100 9400 5100
-Wire Wire Line
-	9400 5100 9400 5200
+	8850 5150 9000 5150
 $Comp
 L Device:R_Small R18
 U 1 1 5EBFAB15
@@ -1163,8 +1159,6 @@ Wire Wire Line
 	9150 5300 9400 5300
 Text Notes 8500 7000 0    100  ~ 0
 PHY0\nAddress: 0
-Text GLabel 3750 7250 0    50   BiDi ~ 0
-PHYAD2
 $Comp
 L Device:R_Small R14
 U 1 1 5EE489F8
@@ -1259,6 +1253,34 @@ Text HLabel 850  4750 0    50   Input ~ 0
 RXD3
 Text HLabel 850  4850 0    50   Input ~ 0
 RX_CLK
+Text Label 3750 7250 2    50   ~ 0
+PHYAD2
+Wire Notes Line
+	8300 3500 8300 2400
+Wire Notes Line
+	9500 2400 9500 3200
+Text Notes 8350 2600 0    50   ~ 0
+PHYAD0 is pulled down here
+Wire Notes Line
+	8300 2400 9500 2400
+Wire Notes Line
+	8300 3500 9500 3500
+Wire Notes Line
+	8300 5050 8300 6100
+Wire Notes Line
+	9500 6100 9500 5400
+Text Notes 8350 5950 0    50   ~ 0
+PHYAD0 is pulled down here
+Wire Notes Line
+	8300 5050 9500 5050
+Wire Notes Line
+	8300 6100 9500 6100
+Wire Wire Line
+	9200 5150 9350 5150
+Wire Wire Line
+	9350 5150 9350 5200
+Wire Wire Line
+	9350 5200 9400 5200
 Wire Bus Line
 	7350 3500 7350 5000
 Wire Bus Line

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 2 8
 Title ""
 Date ""
 Rev ""
@@ -847,25 +847,21 @@ F 3 "~" H 9100 3050 50  0001 C CNN
 	1    9100 3050
 	1    0    0    -1  
 $EndComp
-Text HLabel 8850 5100 0    50   Input ~ 0
+Text HLabel 8850 5150 0    50   Input ~ 0
 +3.3V
 $Comp
 L Device:R_Small R40
 U 1 1 5EBFAB14
-P 9100 5100
-F 0 "R40" V 9150 4950 50  0000 C CNN
-F 1 "220" V 9150 5250 50  0000 C CNN
-F 2 "" H 9100 5100 50  0001 C CNN
-F 3 "~" H 9100 5100 50  0001 C CNN
-	1    9100 5100
+P 9100 5150
+F 0 "R40" V 9150 5000 50  0000 C CNN
+F 1 "220" V 9150 5300 50  0000 C CNN
+F 2 "" H 9100 5150 50  0001 C CNN
+F 3 "~" H 9100 5150 50  0001 C CNN
+	1    9100 5150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8850 5100 9000 5100
-Wire Wire Line
-	9200 5100 9400 5100
-Wire Wire Line
-	9400 5100 9400 5200
+	8850 5150 9000 5150
 $Comp
 L Device:R_Small R41
 U 1 1 5EDAC00F
@@ -892,8 +888,6 @@ Wire Wire Line
 	9150 5300 9400 5300
 Text Notes 8500 7000 0    100  ~ 0
 PHY1\nAddress: 1
-Text GLabel 3900 7300 0    50   BiDi ~ 0
-PHYAD2
 $Comp
 L Device:R_Small R?
 U 1 1 5EEC7B9F
@@ -1231,6 +1225,24 @@ Text HLabel 2250 3350 0    50   Input ~ 0
 MDC
 Text HLabel 2250 3450 0    50   Input ~ 0
 MDIO
+Text Label 3900 7300 2    50   ~ 0
+PHYAD2
+Wire Notes Line
+	8300 5050 8300 6100
+Wire Notes Line
+	9500 6100 9500 5400
+Text Notes 8350 5950 0    50   ~ 0
+PHYAD0 is pulled down here
+Wire Notes Line
+	8300 6100 9500 6100
+Wire Notes Line
+	8300 5050 9500 5050
+Wire Wire Line
+	9200 5150 9350 5150
+Wire Wire Line
+	9350 5150 9350 5200
+Wire Wire Line
+	9350 5200 9400 5200
 Wire Bus Line
 	7350 3500 7350 5000
 Wire Bus Line
