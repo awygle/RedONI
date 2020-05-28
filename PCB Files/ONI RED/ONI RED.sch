@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -835,6 +835,7 @@ F61 "RX_CLK(2)" I R 6450 5100 50
 F62 "RX_CLK(3)" I R 6450 6400 50 
 F63 "CLK_125(3)" I R 6450 8250 50 
 F64 "CLK_125(2)" I R 6450 8150 50 
+F65 "GND" I R 6450 8550 50 
 $EndSheet
 Wire Bus Line
 	1150 8300 4250 8300
@@ -1594,6 +1595,17 @@ Wire Wire Line
 	11350 5900 11350 8850
 Wire Wire Line
 	11750 6200 11300 6200
+Connection ~ 11300 6200
+Wire Wire Line
+	11300 6200 11300 5650
+Wire Wire Line
+	6450 8550 6850 8550
+Wire Wire Line
+	6850 8550 6850 8900
+Wire Wire Line
+	6850 8900 11150 8900
+Wire Wire Line
+	11150 8900 11150 7600
 Wire Bus Line
 	14600 2200 14600 3000
 Wire Bus Line
@@ -1608,7 +1620,11 @@ Wire Bus Line
 	7150 5000 7150 7850
 Wire Bus Line
 	8450 4900 8450 7850
-Connection ~ 11300 6200
-Wire Wire Line
-	11300 6200 11300 5650
+Connection ~ 11150 7600
+$Sheet
+S 5500 3400 2200 1150
+U 5EE22ECE
+F0 "DDR2" 50
+F1 "DDR2.sch" 50
+$EndSheet
 $EndSCHEMATC

@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP W9751G6KB-25
+D IC SDRAM DDR2 512MBIT (32 x 16) 400MHZ 84BGA
+F http://www.winbond.com/resource-files/da00-w9751g6kbg1.pdf
+$ENDCMP
+#
 #End Doc Library

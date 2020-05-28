@@ -1193,63 +1193,6 @@ Text HLabel 850  4850 0    50   Input ~ 0
 RX_CLK
 Text Label 3750 7250 2    50   ~ 0
 PHYAD2
-Text HLabel 9050 2800 0    50   Input ~ 0
-+3.3V
-Wire Wire Line
-	9050 2800 9200 2800
-Wire Wire Line
-	9200 3300 9400 3300
-Text HLabel 8900 2900 0    50   BiDi ~ 0
-GND
-$Comp
-L Device:R_Small R?
-U 1 1 5F5FE996
-P 9200 3050
-AR Path="/5EA74211/5F5FE996" Ref="R?"  Part="1" 
-AR Path="/5EE1B380/5F5FE996" Ref="R?"  Part="1" 
-AR Path="/5EC97B8C/5F5FE996" Ref="R?"  Part="1" 
-AR Path="/5EC985D1/5F5FE996" Ref="R?"  Part="1" 
-F 0 "R?" H 9259 3096 50  0000 L CNN
-F 1 "220" H 9259 3005 50  0000 L CNN
-F 2 "" H 9200 3050 50  0001 C CNN
-F 3 "~" H 9200 3050 50  0001 C CNN
-	1    9200 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9200 2800 9200 2950
-Wire Wire Line
-	9200 3150 9200 3300
-Wire Wire Line
-	9400 3400 9100 3400
-Wire Wire Line
-	9100 3400 9100 3200
-Wire Wire Line
-	9100 3200 8700 3200
-$Comp
-L Device:R_Small R?
-U 1 1 5F5FE9A1
-P 9100 3050
-AR Path="/5EA74211/5F5FE9A1" Ref="R?"  Part="1" 
-AR Path="/5EE1B380/5F5FE9A1" Ref="R?"  Part="1" 
-AR Path="/5EC97B8C/5F5FE9A1" Ref="R?"  Part="1" 
-AR Path="/5EC985D1/5F5FE9A1" Ref="R?"  Part="1" 
-F 0 "R?" H 8900 3100 50  0000 L CNN
-F 1 "1k" H 8900 3000 50  0000 L CNN
-F 2 "" H 9100 3050 50  0001 C CNN
-F 3 "~" H 9100 3050 50  0001 C CNN
-	1    9100 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8900 2900 9100 2900
-Wire Wire Line
-	9100 2900 9100 2950
-Wire Wire Line
-	9100 3150 9100 3200
-Connection ~ 9100 3200
-Text Label 8700 3200 2    50   ~ 0
-PHYAD0
 Wire Notes Line
 	8400 3500 8400 2400
 Wire Notes Line
@@ -1269,7 +1212,8 @@ P 8950 5150
 AR Path="/5EA74211/5F88CC32" Ref="R?"  Part="1" 
 AR Path="/5EE1B380/5F88CC32" Ref="R?"  Part="1" 
 AR Path="/5EC97B8C/5F88CC32" Ref="R?"  Part="1" 
-F 0 "R?" V 9000 5000 50  0000 C CNN
+AR Path="/5EC985D1/5F88CC32" Ref="R67"  Part="1" 
+F 0 "R67" V 9000 5000 50  0000 C CNN
 F 1 "220" V 9000 5300 50  0000 C CNN
 F 2 "" H 8950 5150 50  0001 C CNN
 F 3 "~" H 8950 5150 50  0001 C CNN
@@ -1283,7 +1227,8 @@ P 8950 5300
 AR Path="/5EA74211/5F88CC38" Ref="R?"  Part="1" 
 AR Path="/5EE1B380/5F88CC38" Ref="R?"  Part="1" 
 AR Path="/5EC97B8C/5F88CC38" Ref="R?"  Part="1" 
-F 0 "R?" V 9000 5050 50  0000 L CNN
+AR Path="/5EC985D1/5F88CC38" Ref="R68"  Part="1" 
+F 0 "R68" V 9000 5050 50  0000 L CNN
 F 1 "10k" V 9000 5400 50  0000 L CNN
 F 2 "" H 8950 5300 50  0001 C CNN
 F 3 "~" H 8950 5300 50  0001 C CNN
@@ -1326,6 +1271,56 @@ Wire Notes Line
 	8150 5050 8150 5800
 Wire Notes Line
 	9500 5800 9500 5400
+Text HLabel 8900 2800 0    50   Input ~ 0
++3.3V
+$Comp
+L Device:R_Small R?
+U 1 1 5F925674
+P 9200 3050
+AR Path="/5EE054E8/5F925674" Ref="R?"  Part="1" 
+AR Path="/5EC985D1/5F925674" Ref="R70"  Part="1" 
+F 0 "R70" H 9259 3096 50  0000 L CNN
+F 1 "220" H 9259 3005 50  0000 L CNN
+F 2 "" H 9200 3050 50  0001 C CNN
+F 3 "~" H 9200 3050 50  0001 C CNN
+	1    9200 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F92567A
+P 9100 3050
+AR Path="/5EE054E8/5F92567A" Ref="R?"  Part="1" 
+AR Path="/5EC985D1/5F92567A" Ref="R69"  Part="1" 
+F 0 "R69" H 8900 3100 50  0000 L CNN
+F 1 "10k" H 8900 3000 50  0000 L CNN
+F 2 "" H 9100 3050 50  0001 C CNN
+F 3 "~" H 9100 3050 50  0001 C CNN
+	1    9100 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 2800 9100 2800
+Wire Wire Line
+	9200 2800 9200 2950
+Wire Wire Line
+	9400 3300 9200 3300
+Wire Wire Line
+	9200 3300 9200 3150
+Wire Wire Line
+	9100 2950 9100 2800
+Connection ~ 9100 2800
+Wire Wire Line
+	9100 2800 9200 2800
+Wire Wire Line
+	9100 3150 9100 3400
+Wire Wire Line
+	9100 3400 9400 3400
+Wire Wire Line
+	8800 3400 9100 3400
+Connection ~ 9100 3400
+Text Label 8800 3400 2    50   ~ 0
+PHYAD0
 Wire Bus Line
 	7350 3500 7350 5000
 Wire Bus Line
