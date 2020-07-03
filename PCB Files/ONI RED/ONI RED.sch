@@ -242,7 +242,7 @@ Connection ~ 4550 1600
 Wire Wire Line
 	4150 1600 4150 950 
 Wire Wire Line
-	4150 4250 4150 1600
+	4150 4250 4150 2400
 Connection ~ 4150 1600
 Wire Wire Line
 	4150 1600 4550 1600
@@ -1606,6 +1606,15 @@ Wire Wire Line
 	6850 8900 11150 8900
 Wire Wire Line
 	11150 8900 11150 7600
+Connection ~ 11150 7600
+$Sheet
+S 5500 3400 2200 1150
+U 5EE22ECE
+F0 "DDR2" 50
+F1 "DDR2.sch" 50
+$EndSheet
+Wire Wire Line
+	4550 2400 4150 2400
 Wire Bus Line
 	14600 2200 14600 3000
 Wire Bus Line
@@ -1620,11 +1629,8 @@ Wire Bus Line
 	7150 5000 7150 7850
 Wire Bus Line
 	8450 4900 8450 7850
-Connection ~ 11150 7600
-$Sheet
-S 5500 3400 2200 1150
-U 5EE22ECE
-F0 "DDR2" 50
-F1 "DDR2.sch" 50
-$EndSheet
+Connection ~ 4550 2400
+Connection ~ 4150 2400
+Wire Wire Line
+	4150 2400 4150 1600
 $EndSCHEMATC

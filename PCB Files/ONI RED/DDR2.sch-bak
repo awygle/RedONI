@@ -1138,7 +1138,7 @@ Connection ~ 1550 5700
 Text HLabel 1000 5700 0    50   Input ~ 0
 VDD
 Text HLabel 1000 6100 0    50   Input ~ 0
-GND
+VSS
 Wire Wire Line
 	1000 6100 1500 6100
 Wire Bus Line
